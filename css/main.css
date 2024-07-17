@@ -1,61 +1,16 @@
 body {
     margin:0;
+    padding-bottom: 60px;
     background-color: #fff;
     font-family: 'Times New Roman', Times, serif;
 }
 
-.container{
+.container {
     display: inline-block;
     width:800px;
     margin-left:calc(50% - 400px);
     }
-header.container {
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-margin-top: 60px
-}
 
-.logo {
-    width: 200px;
-    height: 30px;
-}
-
-.main-nav {
-    display: flex;
-    gap: 30px;
-}
-.link {
-    font-size: 20px;
-    text-decoration: none;
-    line-height: 1em;
-    color: grey;
-}
-.link:hover {
-    color:red;
-    text-decoration: underline
-}
-.link.active {
-    color: black;
-    text-decoration: none;
-}
-.button {
-    padding: 0.3em 1em;
-    background-color: black;
-    color: white;
-    font-size: 16px;
-    text-decoration: none;
-    line-height: 2em;
-    border-radius: 0.5em;
-    border: 1px solid black
-}
-.button:hover {
-    background-color: white;
-    color: black;
-   
-    
-}
 .main {
     margin-top: 60px;
 }
@@ -64,35 +19,19 @@ margin-top: 60px
     margin-top: 60px;
 }
 
-.texts {
-     width: 35%;
-     float: left;
-}
-.badge {
+.main-footer {
     display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
     align-items: center;
-    gap: 0.5em;
-    font-size: 14px;
-    text-transform: uppercase;
-    font-weight: bold;
 }
-.badge > svg {
-    width: 20px;
-    height: 20px;
+.main-footer > div {
+    display: flex;
 }
-.main-title {
-    font-size: 40px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.main-footer > div > a {
+
 }
-.main-title > span {
-    color:#1E78F0
-}
-.description {
-    font-size: 18px;
-    color: #B7BDCD;
-}
-.hero-img {
-    width: 55%;
-    float: right;
+.main-footer > p {
+    margin: 0;
 }
 

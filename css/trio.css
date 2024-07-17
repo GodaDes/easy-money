@@ -1,0 +1,40 @@
+.trio-list{
+    display: flex;
+    gap: 30px;
+}
+.trio-list .trio{
+    width: 150px;
+    padding: 20px;
+    border-radius: 10%;
+    background-color: #E9F3FF;
+}
+.trio-list .trio:nth-child(2){
+    background-color: #FAEFF6;
+}
+.trio-list .trio:nth-child(3) {
+    background-color:#F2ECFF
+}
+.trio-list .img {
+    display: block;
+    height: 40px;
+    object-fit: contain;
+    object-position: left;
+}
+.trio-list .title{
+
+    font-size: 18px;
+    font-weight: bold;
+}
+.trio-list .description {
+    font-size: 17px;
+    color: #90C0F3;
+
+}
+.trio-list .trio:nth-child(2) .description{
+    font-size: 17px;
+    color: #D3C4D3;
+}
+.trio-list .trio:nth-child(3) .description {
+    font-size: 17px;
+    color: #BEB7CD;
+}

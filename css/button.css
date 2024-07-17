@@ -27,12 +27,7 @@
     color: #1E78F0;
     background-color: white;
 }
-.button.button-blue.button-disabled,
-.button.button-blue [disabled]{
-    background-color: lightblue;
-    color:white;
-    border
-}
+
 .button.button-white {
     background-color: white;
     color: black;

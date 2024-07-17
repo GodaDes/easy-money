@@ -1,0 +1,30 @@
+.hero .texts {
+    width: 35%;
+    float: left;
+}
+.hero .badge {
+   display: flex;
+   align-items: center;
+   gap: 0.5em;
+   font-size: 14px;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+.hero .badge > svg {
+   width: 20px;
+   height: 20px;
+}
+.hero .main-title {
+   font-size: 40px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero .main-title > span {
+   color:#1E78F0
+}
+.hero .description {
+   font-size: 16px;
+   color: #B7BDCD;
+}
+.hero .hero-img {
+   width: 55%;
+   float: right;
