@@ -1,0 +1,44 @@
+.button {
+    padding: 0.3em 1em;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 2em;
+    border-radius: 0.5em;
+    border: 1px solid black;
+}
+.button:hover {
+    background-color: white;
+    color: black;
+    border-color: currentColor;
+}
+.button.button-big {
+    padding: 0.7em 1.5em;
+    border-radius: 0.7em;
+}
+.button-blue {
+    background-color: #1E78F0;
+    color: white;
+    border-color:#1E78F0;
+ 
+}
+.button-blue:hover {
+    color: #1E78F0;
+    background-color: white;
+}
+.button.button-blue.button-disabled,
+.button.button-blue [disabled]{
+    background-color: lightblue;
+    color:white;
+    border
+}
+.button.button-white {
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+button.button-white:hover {
+    background-color: black;
+    color: white;
+}
